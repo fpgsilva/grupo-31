@@ -1,4 +1,3 @@
-import React from "react";
 import "./ImageGrid.css"; // Importing the CSS file
 
 const ImageGrid = () => {
