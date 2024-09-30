@@ -7,7 +7,7 @@
   /* Logo container */
   .logo-container {
     display: flex;
-    
+    position: fixed;
     justify-content: center; /* Centers the logo horizontally */
     align-items: center;
     margin-bottom: 20px;
