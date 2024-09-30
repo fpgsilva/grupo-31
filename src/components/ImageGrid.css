@@ -1,20 +1,25 @@
 /* General page container */
 .page-container {
     text-align: center;
-    padding: 20px;
+    padding: 0%;
+    
+    
   }
+
   
   /* Logo container */
   .logo-container {
     display: flex;
-    position: fixed;
+    
     justify-content: center; /* Centers the logo horizontally */
     align-items: center;
     margin-bottom: 20px;
+    background-color: darkorchid;
+    
   }
   
   .logo {
-    width: 400px; /* Adjust this to make the logo bigger */
+    width: 200px; /* Adjust this to make the logo bigger */
     height: auto;
   }
   
@@ -55,3 +60,5 @@
     margin-top: 10px;
     color: black;
   }
+
+  

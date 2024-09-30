@@ -24,6 +24,7 @@ const ImageGrid = () => {
   ];
 
   return (
+    <div className="page">
     <div className="page-container">
       {/* Logo at the top */}
       <div className="logo-container">
@@ -53,6 +54,20 @@ const ImageGrid = () => {
           </div>
         ))}
       </div>
+      <div className="image-grid">
+        {alunos.map((aluno, index) => (
+          <div className="image-item" key={index}>
+            <img
+              src={aluno.imageUrl}
+              alt={aluno.name}
+              className="aluno-image"
+            />
+            <p className="aluno-description">{aluno.name}</p>
+            <p className="aluno-description">{aluno.number}</p>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
   );
 };
